@@ -1,0 +1,131 @@
+/*
+
+
+COLOR PALETTES:
+
+* #8f7f6e - brownish theme from logo 
+* #4f4944 - dark brownish theme from logo
+* #5e534b - slightly lighter dark brownish theme
+
+*/
+
+
+
+/* IDS */
+#main_img_title {
+    max-width: 300px;
+    padding: 10px;
+}
+
+
+
+
+#welcome_text {
+    width: 100%;
+}
+
+#brackets {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+
+/* Universal */
+
+/*
+body {
+    background-image: linear-gradient(#5f5a57,#837b77,#5f5a57);
+}
+*/
+
+
+
+body {
+    background-image: url(resources/background.gif);
+}
+
+ul, li {
+    font-family:
+    'Trebuchet MS', 
+    'Lucida Sans Unicode', 
+    'Lucida Grande', 
+    'Lucida Sans';
+    color: #5f5a57;
+}
+
+
+
+h3 {
+    font-family:
+    'Trebuchet MS', 
+    'Lucida Sans Unicode', 
+    'Lucida Grande', 
+    'Lucida Sans';
+    color: #5f5a57;
+}
+
+p {
+    font-family:
+    'Trebuchet MS', 
+    'Lucida Sans Unicode', 
+    'Lucida Grande', 
+    'Lucida Sans';
+    color: #5f5a57;
+}
+
+a {
+    font-family:
+    'Trebuchet MS', 
+    'Lucida Sans Unicode', 
+    'Lucida Grande', 
+    'Lucida Sans';
+    color: white;
+}
+
+/* Classes */
+
+.btn {
+    background-color: #bebebe; border-style: none; 
+    height: 100%; width: 20%; transition: letter-spacing 1s, font-weight 1s;
+    color: white; font-family:
+    'Trebuchet MS', 
+    'Lucida Sans Unicode', 
+    'Lucida Grande', 
+    'Lucida Sans';
+}
+
+.btn:hover {
+    font-weight: bolder; letter-spacing: 1px;
+}
+
+.content {
+    max-width: 600px; 
+    background-image: linear-gradient(white,#d4d4d4);
+    margin: auto; 
+    border-style: outset; 
+}
+
+/* Elements */
+.nav_bar {
+    background-color: #cfcfcf;
+    width: 100%; height: 30px; 
+    border-bottom-style:solid; border-bottom-color: #9c9c9c; border-bottom-width: 4px;
+}
+
+.chat {
+    background-color: #cfcfcf;
+    width: 80%; margin-left: 50;
+    border-bottom-style:solid; border-bottom-color: #9c9c9c; border-bottom-width: 4px;
+    border-top-style:solid; border-top-color: #9c9c9c; border-top-width: 4px;
+}
+
+/* Sections */
+.section_ex {
+    font-family:
+    'Trebuchet MS', 
+    'Lucida Sans Unicode', 
+    'Lucida Grande', 
+    'Lucida Sans';
+}
