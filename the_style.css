@@ -107,6 +107,11 @@ a {
     border-style: outset; 
 }
 
+.notfound {
+    max-width: 600px; 
+    margin: auto; 
+}
+
 /* Elements */
 .nav_bar {
     background-color: #cfcfcf;
