@@ -32,6 +32,13 @@ COLOR PALETTES:
 }
 
 
+#title_dark {
+    display: block;
+    margin-left: auto; padding-top: 50;
+    margin-right: auto;
+    width: 470px;
+}
+
 /* Universal */
 
 /*
@@ -57,7 +64,7 @@ ul, li {
 
 
 
-h3 {
+h2,h3,h4,h5,h6 {
     font-family:
     'Trebuchet MS', 
     'Lucida Sans Unicode', 
@@ -96,9 +103,22 @@ a {
     'Lucida Sans';
 }
 
-.btn:hover {
+.btn_index {
+    background-color: #bebebe; border-style: outset; border-width: 5px; border-color: rgb(158, 158, 158);
+    height: 65px; width: 100%; transition: letter-spacing 1s, font-weight 1s;
+    color: white; font-family:
+    'Trebuchet MS', 
+    'Lucida Sans Unicode', 
+    'Lucida Grande', 
+    'Lucida Sans';
+    margin-bottom: 10px;
+} .btn:hover {
     font-weight: bolder; letter-spacing: 1px;
 }
+
+.btn_banner {
+    width: 100%; height: 100%; z-index: 1;
+} 
 
 .content {
     max-width: 600px; 
